@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
-    <mapping directory="" vcs="svn" />
+    <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/xzz_app_portal" vcs="svn" />
-    <mapping directory="$PROJECT_DIR$/xzz_config" vcs="svn" />
-    <mapping directory="$PROJECT_DIR$/xzz_core" vcs="svn" />
-    <mapping directory="$PROJECT_DIR$/xzz_job" vcs="svn" />
-    <mapping directory="$PROJECT_DIR$/xzz_service_common" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/xzz_app_portal" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/xzz_config" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/xzz_core" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/xzz_job" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/xzz_service_common" vcs="Git" />
   </component>
 </project>

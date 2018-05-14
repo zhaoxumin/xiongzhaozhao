@@ -2,49 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="19db21a8-579a-4f29-957f-6b56f0dae053" name="Default" comment="简单maven依赖关系配置，并分层了一下，方便后面分布式">
-      <change afterPath="$PROJECT_DIR$/xzz_app_portal" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/xzz_app_portal/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xzz_app_portal/src" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/xzz_app_portal/src/main" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/xzz_app_portal/src/main/java" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/xzz_app_portal/src/main/resources" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/xzz_app_portal/src/test" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/xzz_app_portal/src/test/java" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/xzz_config" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/xzz_config/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xzz_config/src" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/xzz_config/src/main" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/xzz_config/src/main/java" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/xzz_config/src/main/resources" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/xzz_config/src/test" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/xzz_config/src/test/java" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/xzz_config/xzz_config.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xzz_core" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/xzz_core/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xzz_core/src" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/xzz_core/src/main" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/xzz_core/src/main/java" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/xzz_core/src/main/resources" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/xzz_core/src/test" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/xzz_core/src/test/java" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/xzz_core/xzz_core.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xzz_job" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/xzz_job/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xzz_job/src" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/xzz_job/src/main" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/xzz_job/src/main/java" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/xzz_job/src/main/resources" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/xzz_job/src/test" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/xzz_job/src/test/java" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/xzz_service_common" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/xzz_service_common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xzz_service_common/src" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/xzz_service_common/src/main" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/xzz_service_common/src/main/java" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/xzz_service_common/src/main/resources" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/xzz_service_common/src/test" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/xzz_service_common/src/test/java" afterDir="true" />
-      <change afterPath="$PROJECT_DIR$/xzz_service_common/xzz_service_common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -83,11 +42,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xzz_user/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            <state relative-caret-position="216">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vcs.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="66" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -147,15 +115,6 @@
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xzz_service_common/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="35" selection-start-line="10" selection-start-column="4" selection-end-line="14" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xzz_web_common/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
@@ -187,6 +146,7 @@
         <option value="$PROJECT_DIR$/xzz_shop/pom.xml" />
         <option value="$PROJECT_DIR$/xzz_task/pom.xml" />
         <option value="$PROJECT_DIR$/xzz_user/pom.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
       </list>
     </option>
   </component>
@@ -220,28 +180,7 @@
             <path>
               <item name="xiongzhaozhao" type="b2602c69:ProjectViewProjectNode" />
               <item name="xiongzhaozhao" type="462c0819:PsiDirectoryNode" />
-              <item name="xzz_pay" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiongzhaozhao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiongzhaozhao" type="462c0819:PsiDirectoryNode" />
-              <item name="xzz_pay" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiongzhaozhao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiongzhaozhao" type="462c0819:PsiDirectoryNode" />
-              <item name="xzz_task_api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiongzhaozhao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiongzhaozhao" type="462c0819:PsiDirectoryNode" />
-              <item name="xzz_user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiongzhaozhao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiongzhaozhao" type="462c0819:PsiDirectoryNode" />
-              <item name="xzz_web_common" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -351,7 +290,7 @@
       <workItem from="1526182604140" duration="111000" />
       <workItem from="1526217772309" duration="3379000" />
       <workItem from="1526260296131" duration="7000" />
-      <workItem from="1526260485517" duration="4515000" />
+      <workItem from="1526260485517" duration="5029000" />
     </task>
     <task id="LOCAL-00001" summary="简单maven依赖关系配置，并分层了一下，方便后面分布式">
       <created>1526265414455</created>
@@ -364,7 +303,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13871000" />
+    <option name="totallyTimeSpent" value="14385000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="731" extended-state="0" />
@@ -374,7 +313,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.25325733" side_tool="true" visible="true" weight="0.5008157" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.25325733" side_tool="true" visible="true" weight="0.24469821" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -382,14 +321,14 @@
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7222222" visible="true" weight="0.3583062" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7710583" visible="true" weight="0.3583062" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" sideWeight="0.2777778" side_tool="true" visible="true" weight="0.3583062" />
+      <window_info id="Favorites" order="2" sideWeight="0.22894168" side_tool="true" visible="true" weight="0.3583062" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="7" />
@@ -581,8 +520,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/xzz_user/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        <state relative-caret-position="216">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="66" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
         </state>
       </provider>
     </entry>
