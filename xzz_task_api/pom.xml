@@ -8,8 +8,12 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
+    <groupId>com.xunzhaozhao</groupId>
     <artifactId>xzz_task_api</artifactId>
+    <version>${xiongzhaozho.version}</version>
+    <packaging>jar</packaging>
+    <name>xzz_task_api</name>
+
 
 
 </project>

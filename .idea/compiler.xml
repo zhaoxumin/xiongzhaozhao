@@ -6,8 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="xzz_app_portal" />
+        <module name="xzz_config" />
+        <module name="xzz_core" />
+        <module name="xzz_job" />
         <module name="xzz_pay" />
         <module name="xzz_pay_api" />
+        <module name="xzz_service_common" />
         <module name="xzz_shop" />
         <module name="xzz_shop_api" />
         <module name="xzz_task" />

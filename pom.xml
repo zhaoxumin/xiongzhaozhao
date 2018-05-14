@@ -19,6 +19,11 @@
         <module>xzz_pay</module>
         <module>xzz_pay_api</module>
         <module>xzz_web_common</module>
+        <module>xzz_core</module>
+        <module>xzz_service_common</module>
+        <module>xzz_job</module>
+        <module>xzz_app_portal</module>
+        <module>xzz_config</module>
     </modules>
     <url>http://maven.apache.org</url>
     <properties>
