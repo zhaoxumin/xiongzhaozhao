@@ -3,10 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/xzz_app_portal" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/xzz_config" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/xzz_core" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/xzz_job" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/xzz_service_common" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/xzz_web_manager" vcs="svn" />
   </component>
 </project>

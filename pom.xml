@@ -24,6 +24,7 @@
         <module>xzz_job</module>
         <module>xzz_app_portal</module>
         <module>xzz_config</module>
+        <module>xzz_web_manager</module>
     </modules>
     <url>http://maven.apache.org</url>
     <properties>

@@ -11,7 +11,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.xunzhaozhao</groupId>
     <artifactId>xzz_app_portal</artifactId>
-    <version>${xzz.version}</version>
+    <version>${xiongzhaozho.version}</version>
     <packaging>war</packaging>
     <name>xzz-app-portal</name>
 
