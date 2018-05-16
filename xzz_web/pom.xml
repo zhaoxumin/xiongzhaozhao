@@ -9,12 +9,24 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.xunzhaozhao</groupId>
-    <artifactId>xzz_pay_api</artifactId>
+    <artifactId>xzz_web</artifactId>
     <version>${xiongzhaozho.version}</version>
-    <packaging>jar</packaging>
-    <name>xzz_pay_api</name>
+    <packaging>war</packaging>
+    <name>xiongzhaozhao</name>
 
     <dependencies>
+        <!-- SPRINGBOOT-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <!--DUBBO-->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>dubbo</artifactId>
@@ -26,6 +38,7 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <!--ZOOKEEPER-->
         <dependency>
             <groupId>org.apache.zookeeper</groupId>
             <artifactId>zookeeper</artifactId>
@@ -37,12 +50,38 @@
                 </exclusion>
             </exclusions>
         </dependency>
+
         <dependency>
             <groupId>com.github.sgroschupf</groupId>
             <artifactId>zkclient</artifactId>
             <version>0.1</version>
         </dependency>
-    </dependencies>
+        <!--依赖包-->
+        <dependency>
+            <groupId>com.xunzhaozhao</groupId>
+            <artifactId>xxz_service_common</artifactId>
+        </dependency>
 
+        <dependency>
+            <groupId>com.xunzhaozhao</groupId>
+            <artifactId>xzz_core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.xunzhaozhao</groupId>
+            <artifactId>xzz_pay</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.xunzhaozhao</groupId>
+            <artifactId>xzz_shop</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.xunzhaozhao</groupId>
+            <artifactId>xzz_user</artifactId>
+        </dependency>
+
+    </dependencies>
 
 </project>
