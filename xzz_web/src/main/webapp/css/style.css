@@ -1,0 +1,164 @@
+/**foot 版权区显示*/
+#copyright {
+	margin: 21px 0;
+	color: #6b90da;
+	font-size: 80%;
+	text-align: center;
+}
+
+/**登录输入*/
+#login .waku {
+	padding: 15px;
+	width: 500px;
+	margin: 50px auto;
+	background: #ebeff9 url(../img/bg_login.gif) bottom right no-repeat;
+}
+
+#login .waku p {
+	text-align: center;
+	padding-bottom: 14px;
+}
+
+#login .text {
+	display: block;
+	font-size: 120%;
+	height: 150%;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+#login input {
+	width: 300px;
+	margin-bottom: 15px;
+	font-size: 150%;
+}
+/**登录输入结束*/
+
+/**错误消息*/
+.errorbox {
+	margin: 0 20px 20px 20px;
+	padding: 15px;
+	background: #ffecec url(../img/obj_error.gif) 15px 50% no-repeat;
+	border: #ffc9c9 solid 1px;
+	color: #990000;
+	padding-left: 50px;
+}
+
+table th.no {
+	width: 40px;
+}
+
+/**登录者显示*/
+.navbar .nav>li.loginshow {
+	padding: 10px 10px 11px;
+}
+
+/**jquery ui自定义*/
+.ui-helper-reset {
+	line-height: 0.8;
+}
+
+.left_menu {
+	font-size: 12px;
+	/*font-weight: bold;*/
+	padding: 0;
+}
+
+.ui-accordion-content {
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+	 padding-top: 5px !important;
+}
+
+.left_menu a:link,.left_menu a:visited {
+	color: #1B75BB;
+	text-decoration: none;
+}
+
+.ui-accordion .ui-accordion-header a {
+	margin-left:12px;
+	font-size: 12px;
+}
+
+.ui-widget {
+    font-family: "宋体",Arial, Helvetica,  sans-serif;
+	font-size: 12px;
+}
+
+.ui-widget .ui-widget {
+	font-size: 12px;
+}
+
+.ui-widget input,.ui-widget select,.ui-widget textarea,.ui-widget button{
+    font-family: "宋体",Arial, Helvetica,  sans-serif;
+	font-size: 12px;
+}
+
+.menu-content-nav,.menu-content-nav dt,.menu-content-nav dd,.menu-content-nav ul,.menu-content-nav li {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.menu-content-nav {
+	float: left;
+}
+
+.menu-content-nav dt,.menu-content-nav h4 {
+	color: #E87B10;
+	margin: 0;
+	padding: 0;
+}
+
+.menu-content-nav dt,.menu-content-nav h4 {
+	border-bottom: 1px solid #F4F4F4;
+	line-height: 1.2em;
+	margin-bottom: 0;
+	padding-bottom: 5px;
+}
+.menu-content-nav dt span,.menu-content-nav h4 span{
+    padding-left: 18px;
+}
+
+.menu-content-nav dd a,.menu-content-nav li a {
+	border-bottom: 1px solid #F4F4F4;
+	color: #555555;
+	display: block;
+	font-size: 100%;
+	height: 13px;
+	margin: 2px 0;
+	padding: 4px 3px 4px 8px;
+	text-decoration: none;
+}
+
+.menu-content-nav dd a:hover,.menu-content-nav dd a:focus,.menu-content-nav dd a:hover,.menu-content-nav dd a:focus
+	{
+	background: none repeat scroll 0 0 #F3F3F3;
+	border-radius: 5px 5px 5px 5px;
+	color: #000000;
+}
+
+.menu-content-nav dd a.selected {
+	background: none repeat scroll 0 0 #555555;
+	border-radius: 5px 5px 5px 5px;
+	color: #FFFFFF;
+}
+
+.menu-content-nav dd a {
+	padding-left: 35px;
+}
+
+.menu-content-nav dt{
+	padding-top: 5px; padding-bottom: 1px;
+}
+
+.menu-content-nav dd a.selected {
+    background: none repeat scroll 0 0 #0088CC;
+    border-radius: 5px 5px 5px 5px;
+    color: #FFFFFF;
+}
+
+.left_menu .ui-state-active,.left_menu .ui-widget-content .ui-state-active,.left_menu .ui-widget-header .ui-state-active {
+   background: url("images/ui-bg_glass_75_e6e6e6_1x400.png") repeat-x scroll 50% 50% #E6E6E6;
+}
+

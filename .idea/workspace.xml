@@ -1,8 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="xzz_web:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="19db21a8-579a-4f29-957f-6b56f0dae053" name="Default" comment="">
+    <list default="true" readonly="true" id="19db21a8-579a-4f29-957f-6b56f0dae053" name="Default" comment="web首页更新，搜索考虑使用站内搜索引擎">
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/css/bootstrap-responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/css/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/css/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/css/images/ui-bg_flat_75_ffffff_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/css/images/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/css/images/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/css/images/ui-bg_glass_75_dadada_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/css/images/ui-bg_glass_75_e6e6e6_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/css/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/css/images/ui-icons_222222_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/css/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/css/images/ui-icons_454545_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/css/images/ui-icons_888888_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/css/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/css/import.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/css/jquery-ui-1.8.19.custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/css/jquery-ui-timepicker-addon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/css/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/css/my.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/images/loading_bar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/index_files/642b5cf3-02c2-448a-9251-f879061034cc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/index_files/bcce42c8-e937-4699-b15a-0da7f261256b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/index_files/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/index_files/e405251b-c918-41e4-852a-59c7bbdbb41d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/index_files/error-12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/index_files/f4ea486f-0855-49e6-844b-ddac1184f427.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/index_files/ga.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/index_files/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/index_files/images/91.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/index_files/images/91logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/index_files/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/index_files/images/bg_x.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/index_files/images/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/index_files/images/main_0410.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/index_files/images/szxue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/index_files/images/szxue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/index_files/index-4.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/index_files/jquery-1.2.6.pack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/index_files/lib-v1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/index_files/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/index_files/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/index_files/lvyou.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/index_files/wl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/My97DatePicker/WdatePicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/My97DatePicker/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/My97DatePicker/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/My97DatePicker/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/My97DatePicker/lang/zh-tw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/My97DatePicker/skin/WdatePicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/My97DatePicker/skin/datePicker.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/My97DatePicker/skin/default/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/My97DatePicker/skin/default/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/My97DatePicker/skin/whyGreen/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/My97DatePicker/skin/whyGreen/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/My97DatePicker/skin/whyGreen/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/calendar/jquery-1.8.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/calendar/jquery-ui-sliderAccess.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/calendar/jquery-ui-timepicker-addon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/calendar/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/custom/menu/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/custom/plugin/oa.calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/custom/plugin/oa.form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/jquery-1.8.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/match/match_add.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/tool/ajax_modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/tool/block.win.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/tool/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/tool/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/tool/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/tool/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/tool/jquery-ui-1.8.19.custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/tool/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/tool/jquery.blockUI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/tool/paging.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xzz_web/src/main/resources/dubbo/dubbo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xzz_web/src/main/resources/dubbo/dubbo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xzz_web/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/css/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,69 +134,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="352" column="19" selection-start-line="39" selection-start-column="4" selection-end-line="352" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xzz_core/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="328" column="19" selection-start-line="328" selection-start-column="19" selection-end-line="328" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vcs.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="vcs.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+            <state relative-caret-position="66">
+              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dubbo.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xzz_web/src/main/resources/dubbo/dubbo.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xzz_web/src/main/webapp/index.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+        <entry file="file://$PROJECT_DIR$/xzz_web/src/main/webapp/css/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3316" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xzz_web/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="83" selection-start-line="83" selection-end-line="83" />
+            <state relative-caret-position="44">
+              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package-info.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xzz_core/src/main/java/package-info.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="package-info.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xzz_core/src/main/java/com/xiongzhaozhao/package-info.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="StringUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xzz_core/src/main/java/com/xiongzhaozhao/utils/StringUtils.java">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xzz_web/src/main/webapp/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="258">
+              <caret line="4912" selection-start-line="4912" selection-end-line="4912" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#li#0;n#c:forEach#0;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -124,6 +183,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="StringUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xzz_core/src/main/java/com/xiongzhaozhao/utils/StringUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -131,6 +204,7 @@
       <list>
         <option value="package-info" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -161,6 +235,8 @@
         <option value="$PROJECT_DIR$/xzz_web/pom.xml" />
         <option value="$PROJECT_DIR$/xzz_core/src/main/java/com/xiongzhaozhao/utils/StringUtils.java" />
         <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/xzz_web/src/main/resources/dubbo/dubbo.xml" />
+        <option value="$PROJECT_DIR$/xzz_web/src/main/webapp/index.html" />
       </list>
     </option>
   </component>
@@ -170,9 +246,21 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="xiongzhaozhao" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -190,7 +278,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,33 +291,33 @@
               <item name="xiongzhaozhao" type="462c0819:PsiDirectoryNode" />
               <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="xiongzhaozhao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiongzhaozhao" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-              <item name="inspectionProfiles" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Apple JS" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.48832488" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/xzz_web/src/main/webapp/css" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/xzz_web/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/xzz_web/src/main/webapp/js" />
       <recent name="$PROJECT_DIR$/xzz_web/src/main/resources/dubbo" />
       <recent name="$PROJECT_DIR$/xzz_web/src/main" />
     </key>
@@ -367,7 +455,7 @@
               </StagingTargetModelImpl>
             </list>
           </option>
-          <option name="transportHostId" />
+          <option name="transportHostId" value="" />
           <host-id />
         </data>
       </server-settings>
@@ -377,6 +465,80 @@
         <option name="DEBUG_PORT" value="58386" />
         <option name="LOCAL" value="false" />
       </RunnerSettings>
+    </configuration>
+    <configuration name="web" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.78" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="xzz_web:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_xiongzhaozhao_2" />
+        <option name="HTTP_PORT" value="8099" />
+        <option name="JNDI_PORT" value="1088" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58388" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="xzz_web:war exploded" />
+        </option>
+      </method>
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -413,7 +575,8 @@
       <workItem from="1526260296131" duration="7000" />
       <workItem from="1526260485517" duration="6733000" />
       <workItem from="1526290177541" duration="604000" />
-      <workItem from="1526378843274" duration="7629000" />
+      <workItem from="1526378843274" duration="11230000" />
+      <workItem from="1526526153999" duration="2264000" />
     </task>
     <task id="LOCAL-00001" summary="简单maven依赖关系配置，并分层了一下，方便后面分布式">
       <created>1526265414455</created>
@@ -443,43 +606,51 @@
       <option name="project" value="LOCAL" />
       <updated>1526438700573</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="先开发web版">
+      <created>1526520681061</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1526520681061</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24322000" />
+    <option name="totallyTimeSpent" value="30187000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.32954547" />
       <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.25325733" side_tool="true" visible="true" weight="0.4815341" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.13192183" side_tool="true" weight="0.35085228" />
+      <window_info anchor="bottom" id="Application Servers" order="8" sideWeight="0.49918568" weight="0.32954547" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.0480456" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.74674267" weight="0.5008157" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8737785" weight="0.42613637" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.76438355" visible="true" weight="0.33387622" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.76623374" visible="true" weight="0.29071662" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" weight="0.32980457" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info id="Favorites" order="2" sideWeight="0.23561645" side_tool="true" visible="true" weight="0.33387622" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" sideWeight="0.23414634" side_tool="true" weight="0.33387622" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8680782" weight="0.35085228" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -491,34 +662,50 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="简单maven依赖关系配置，并分层了一下，方便后面分布式" />
     <MESSAGE value="简单maven依赖关系配置，并分层了一下，方便后面分布式,后面考虑那种rpc框架，还有数据库设计" />
-    <option name="LAST_COMMIT_MESSAGE" value="简单maven依赖关系配置，并分层了一下，方便后面分布式,后面考虑那种rpc框架，还有数据库设计" />
+    <MESSAGE value="先开发web版" />
+    <MESSAGE value="web首页更新，搜索考虑使用站内搜索引擎" />
+    <option name="LAST_COMMIT_MESSAGE" value="web首页更新，搜索考虑使用站内搜索引擎" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/xzz_task/pom.xml">
+    <entry file="file://$PROJECT_DIR$/xzz_web/src/main/resources/dubbo/dubbo.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        <state relative-caret-position="176">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xzz_shop/pom.xml">
+    <entry file="file://$PROJECT_DIR$/xzz_web/src/main/webapp/css/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="31" column="19" selection-start-line="16" selection-start-column="4" selection-end-line="31" selection-end-column="19" />
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xzz_pay/pom.xml">
+    <entry file="file://$PROJECT_DIR$/xzz_web/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="30" column="21" selection-start-line="16" selection-start-column="4" selection-end-line="30" selection-end-column="21" />
+        <state relative-caret-position="264">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xzz_web_common/pom.xml">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzz_core/src/main/java/com/xiongzhaozhao/utils/StringUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        <state relative-caret-position="220">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzz_web/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#0;n#c:forEach#0;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -767,20 +954,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xzz_web/src/main/resources/dubbo/dubbo.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzz_web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
@@ -795,21 +968,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/xzz_web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
           <caret line="83" selection-start-line="83" selection-end-line="83" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzz_core/src/main/java/package-info.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzz_core/src/main/java/com/xiongzhaozhao/package-info.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/xzz_core/src/main/java/com/xiongzhaozhao/utils/StringUtils.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -818,20 +982,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xzz_web/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/xzz_web/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3316" />
+        <state relative-caret-position="264">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzz_web/src/main/resources/dubbo/dubbo.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzz_web/src/main/webapp/css/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzz_web/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="4912" selection-start-line="4912" selection-end-line="4912" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#0;n#c:forEach#0;n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+        <state relative-caret-position="66">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

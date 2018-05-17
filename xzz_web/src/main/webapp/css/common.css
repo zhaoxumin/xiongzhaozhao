@@ -1,0 +1,341 @@
+@charset "utf-8";
+
+/* ===== ページ共通 ===== */
+
+body{
+background: url(../images/bg_header.gif) repeat-x;
+}
+
+div#page{
+width: 860px;
+margin: 0 auto;
+}
+
+/* ===== ヘッダー ===== */
+
+div#header{
+margin-bottom:5px;
+}
+
+div#header div#logo{
+float:left;
+width:310px;
+margin-top:6px;
+}
+
+div#header div#logo p.floatleft{
+width:81px;
+}
+
+div#header div#logo p.floatright{
+width:203px;
+margin-top:30px;
+}
+
+/*サイト内検索*/
+
+div#header div#search{
+float:right;
+width:315px;
+margin-top:40px;
+}
+
+div#header div#search label.floatleft{
+margin-top:4px;
+}
+
+div#header div#search form input.textarea{
+width:146px;
+border:0px;
+height:17px;
+padding:2px;
+}
+
+/* ===== グローバルメニュー ===== */
+
+ul#globalmenu{
+margin-bottom:32px;
+} 
+
+ul#globalmenu li{
+float:left;
+height:30px;
+}
+
+/*サブメニュー*/
+
+ul#subcontent{
+position:absolute;
+visibility: hidden;
+background-color:#ffffff;
+border: 1px solid #808080;
+width:188px;
+padding:4px 0;
+}
+
+ul#subcontent li{
+clear:both;
+height:32px;
+}
+
+/* ===== サイドメニュー ===== */
+
+ul#sidemenu a{
+display:block;
+width:194px;
+background:url(../images/obj_arrow.gif) no-repeat 8px 11px;
+padding:5px 0 6px 26px;
+line-height:140%;
+border-bottom: 1px solid #e0e0da;
+}
+
+ul#sidemenu a:link {
+text-decoration:none;
+color:#4e4d4d;
+background-color:#f2f2f2
+}
+
+ul#sidemenu a:visited {
+text-decoration:none;
+color:#4e4d4d;
+background-color:#f2f2f2
+}
+
+ul#sidemenu a:hover {
+text-decoration:none;
+color:#cc0000;
+background-color:#ffffff;
+}
+
+ul#sidemenu a:active {
+text-decoration:none;
+color:#4e4d4d;
+background-color:#f2f2f2
+}
+
+ul#sidemenu li.focus a:link{
+font-weight:bold;
+background-color:#ffffff;
+}
+
+ul#sidemenu li.focus a:visited{
+font-weight:bold;
+background-color:#ffffff;
+}
+
+ul#sidemenu li.focus a:hover{
+color:#4e4d4d;
+font-weight:bold;
+background-color:#ffffff;
+}
+
+ul#sidemenu li.focus a:active{
+font-weight:bold;
+background-color:#ffffff;
+}
+
+/*階層サイドメニュー*/
+
+ul#sidemenu ul.level{
+border-bottom: 1px solid #e0e0da;
+}
+
+ul#sidemenu ul.level a{
+width:178px;
+background-position:24px 11px;
+padding:5px 0 6px 42px;
+border-bottom: 0;
+}
+
+ul#sidemenu li.border a{
+border-bottom: 1px solid #e0e0da;
+}
+
+ul#sidemenu strong.cap{
+color:#666666;
+display:block;
+    font-family: "宋体",Arial, Helvetica,  sans-serif;
+font-weight:bold;
+font-size:90%;
+background-color:#e5e5e5;
+padding:0 8px;
+}
+
+/* ===== コンテンツ ===== */
+
+div#contents{
+padding-bottom:24px;
+margin-bottom:16px;
+border-bottom:2px solid #e0e0da;
+}
+
+/* ===== フッター ===== */
+
+div#footer{
+font-size:80%;
+line-height:140%;
+margin-bottom:24px;
+}
+
+div#footer .ask{
+text-align:center;
+}
+
+div#footer .sslmark{
+padding-left:170px;
+float:left;
+}
+
+div#footer .floatleft{
+margin-top:10px;
+}
+
+div#footer .footermenu{
+padding-bottom:8px;
+color:#808080;
+}
+
+div#footer .footermenu li{
+display:inline;
+}
+
+/* ===== カラム ===== */
+
+/*トップページ*/
+
+div#columntopleft{
+float:left;
+width:510px;
+}
+
+div#columntopright{
+float:right;
+width:300px;
+}
+
+/*汎用ページ*/
+
+div#columnleft{
+float:left;
+width:220px;
+}
+
+div#columnright{
+float:right;
+width:580px;
+}
+
+/* ===== パンくず ===== */
+
+ul#breadcrumb{
+padding-bottom:10px;
+}
+
+ul#breadcrumb li{
+font-size:80%;
+color:#cc0000;
+display:inline;
+}
+
+ul#breadcrumb a:link { text-decoration:none; color:#808080; }
+ul#breadcrumb a:visited { text-decoration:none; color:#808080; }
+ul#breadcrumb a:hover { text-decoration:none; color:#cc0000; }
+ul#breadcrumb a:active { text-decoration:none; color:#808080; }
+
+/* ===== ページング ===== */
+
+ul#paging{
+padding-bottom:24px;
+text-align:center;
+color:#808080;
+}
+
+ul#paging li{
+font-size:90%;
+display:inline;
+padding:0 2px;
+}
+
+ul#paging li.focus{
+font-weight:bold;
+color:#333333;
+}
+
+/* ===== 見出し ===== */
+
+#pagetitle{
+display:block;
+}
+
+#captl01{
+font-size:200%;
+    font-family: "宋体",Arial, Helvetica,  sans-serif;
+font-weight:bold;
+line-height:120%;
+margin-bottom:24px;
+padding-bottom:2px;
+border-bottom:3px solid #e0e0da;
+}
+
+.captl02{
+font-size:200%;
+    font-family: "宋体",Arial, Helvetica,  sans-serif;
+font-weight:bold;
+line-height:120%;
+margin-bottom:14px;
+}
+
+.captl02e{
+font-size:120%;
+border-bottom:1px solid #e0e0da;
+padding-bottom:4px;
+margin-bottom:4px;
+}
+
+.captl03{
+font-weight:bold;
+font-size:105%;
+line-height:120%;
+padding:1px 0 3px 8px;
+margin-bottom:16px;
+border-bottom:1px solid #e0e0da;
+border-left:3px solid #cc0000;
+}
+
+.captl04{
+font-weight:bold;
+line-height:120%;
+margin-bottom:12px;
+}
+
+/* ===== リスト ===== */
+
+/*リンクリスト*/
+
+ul.listlink{
+padding:0 0 12px 16px;
+}
+
+ul.listlink li{
+background: url(../images/obj_arrow.gif) no-repeat 0px 7px;
+padding:0 0 6px 18px;
+line-height:140%;
+}
+
+/* ===== テーブル ===== */
+
+table.simpletable{
+border-top:1px solid #999999;
+border-left:1px solid #999999;
+}
+
+table.simpletable td{
+border-bottom:1px solid #999999;
+border-right:1px solid #999999;
+padding:8px;
+virtical-align:top;
+}
+
+
+
+
