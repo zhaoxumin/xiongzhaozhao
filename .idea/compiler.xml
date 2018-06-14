@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="xzz_app_portal" />
         <module name="xzz_config" />
+        <module name="xzz_content" />
+        <module name="xzz_content_api" />
         <module name="xzz_core" />
         <module name="xzz_job" />
         <module name="xzz_pay" />

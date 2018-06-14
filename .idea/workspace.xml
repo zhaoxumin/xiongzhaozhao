@@ -7,11 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="19db21a8-579a-4f29-957f-6b56f0dae053" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xzz_content/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xzz_content_api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xzz_web/src/main/webapp/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/css/common.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xzz_web/src/main/webapp/css/import.css" beforeDir="false" afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/css/import.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xzz_web/src/main/webapp/css/jquery-ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/css/jquery-ui.css" afterDir="false" />
@@ -137,7 +132,7 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-23986" />
+            <state relative-caret-position="-23827" />
           </provider>
         </entry>
       </file>
@@ -540,7 +535,7 @@
       <workItem from="1526526153999" duration="10221000" />
       <workItem from="1526699297776" duration="293000" />
       <workItem from="1526864913186" duration="591000" />
-      <workItem from="1528870816966" duration="8415000" />
+      <workItem from="1528870816966" duration="8567000" />
     </task>
     <task id="LOCAL-00001" summary="简单maven依赖关系配置，并分层了一下，方便后面分布式">
       <created>1526265414455</created>
@@ -584,11 +579,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526528811626</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="新增了context模块，此模块赞定位为发布寻人寻物所有的接口，重新设计logo以及icon">
+      <created>1528956241631</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1528956241632</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47443000" />
+    <option name="totallyTimeSpent" value="47595000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -601,14 +603,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="731" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32954547" />
       <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.13192183" side_tool="true" weight="0.35085228" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.13273616" side_tool="true" visible="true" weight="0.182708" />
       <window_info anchor="bottom" id="Application Servers" order="8" sideWeight="0.49918568" weight="0.32954547" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.37947884" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
@@ -617,14 +618,14 @@
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.76623374" visible="true" weight="0.32736155" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.76623374" visible="true" weight="0.32736155" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" weight="0.32980457" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="2" sideWeight="0.23414634" side_tool="true" weight="0.33387622" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8680782" visible="true" weight="0.182708" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.86726385" visible="true" weight="0.182708" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -969,7 +970,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23986" />
+        <state relative-caret-position="-23827" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
