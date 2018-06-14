@@ -26,6 +26,8 @@
         <module>xzz_config</module>
         <module>xzz_web_manager</module>
         <module>xzz_web</module>
+        <module>xzz_content</module>
+        <module>xzz_content_api</module>
     </modules>
     <url>http://maven.apache.org</url>
     <properties>

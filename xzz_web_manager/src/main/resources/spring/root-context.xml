@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	   xmlns:context="http://www.springframework.org/schema/context"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans
+						http://www.springframework.org/schema/beans/spring-beans.xsd
+						http://www.springframework.org/schema/aop 
+						http://www.springframework.org/schema/aop/spring-aop.xsd
+						http://www.springframework.org/schema/context 
+						http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<!-- 启用注解 -->
+	<context:annotation-config />
+
+	<aop:aspectj-autoproxy proxy-target-class="true" />
+
+	<import resource="classpath:lark/lark-cache.xml" />
+	<import resource="classpath:lark/lark-service.xml" />
+	<import resource="classpath:lark/lark-mvc.xml" />
+	<import resource="classpath:spring/root-context-shiro.xml" />
+	<import resource="classpath:spring/${envFileName}" />
+
+	<!-- 启动组件扫描，排除@Controller组件，该组件由SpringMVC配置文件扫描 -->
+	<context:component-scan base-package="cn.zhaocaiapp.zc.manager">
+		<context:exclude-filter type="annotation"
+			expression="org.springframework.stereotype.Controller" />
+	</context:component-scan>
+
+	<!-- 配置文件，DEBUG模式自动启用本地文件，否则使用配置中心 -->
+	<bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">
+			<list>
+				<value>classpath:config/db.properties</value>
+				<value>classpath:config/lark.properties</value>
+			</list>
+		</property>
+	</bean>
+
+</beans>

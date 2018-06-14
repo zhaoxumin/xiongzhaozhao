@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xmlns:util="http://www.springframework.org/schema/util" xmlns:mvc="http://www.springframework.org/schema/mvc"
+	   xmlns:context="http://www.springframework.org/schema/context"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd	
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+    <import resource="classpath:spring/zc-core-web-context.xml" />
+    <import resource="classpath:spring/servlet-kaptcha.xml" />
+    <import resource="classpath:spring/servlet-velocity.xml" />
+
+    <context:component-scan base-package="cn.zhaocaiapp.zc.manager.**.controller" />
+
+	<mvc:default-servlet-handler />
+	<!-- 对静态资源文件的访问 restful -->
+	<mvc:resources mapping="/static/**" location="/static/" />
+
+	<!-- 拦截器配置 -->
+	<mvc:interceptors>
+		<!-- 执行时间拦截器 -->
+		<mvc:interceptor>
+			<mvc:mapping path="/**" />
+			<mvc:exclude-mapping path="/static/**" />
+			<bean class="cn.zhaocaiapp.zc.core.web.interceptor.TimeInterceptor" />
+		</mvc:interceptor>
+
+		<!-- csrf拦截器 -->
+ 		 <mvc:interceptor>
+ 			<mvc:mapping path="/**" />
+ 			<mvc:exclude-mapping path="/static/**" />
+ 			<mvc:exclude-mapping path="/config/**" />
+ 			<mvc:exclude-mapping path="/sso/**" />
+ 			<mvc:exclude-mapping path="/doLogin" />
+ 			<mvc:exclude-mapping path="/login" />
+ 			<mvc:exclude-mapping path="/logout" />
+ 			<mvc:exclude-mapping path="/doManagerLogin" />
+ 			<mvc:exclude-mapping path="/ssoLogin" />
+ 			<mvc:exclude-mapping path="/upload" />
+ 			<mvc:exclude-mapping path="/gencode"/>
+ 			<mvc:exclude-mapping path="/getUploadToken" />
+ 			<mvc:exclude-mapping path="/getFile" />
+ 			<mvc:exclude-mapping path="/checkVeryfyCode"/>
+ 			<bean class="cn.zhaocaiapp.zc.core.web.interceptor.CsrfInterceptor" />
+ 		</mvc:interceptor>
+
+	</mvc:interceptors>
+
+	<!-- 消息格式转换器，后台校验 -->
+	<mvc:annotation-driven validator="validator"
+		conversion-service="conversion-service">
+		<mvc:message-converters>
+			<bean class="org.springframework.http.converter.StringHttpMessageConverter">
+				<property name="supportedMediaTypes">
+					<util:list>
+						<value>text/plain;charset=UTF-8</value>
+					</util:list>
+				</property>
+			</bean>
+			<bean
+				class="com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter">
+				<property name="supportedMediaTypes">
+					<list>
+						<value>text/html;charset=UTF-8</value>
+						<value>application/json</value>
+					</list>
+				</property>
+				<property name="fastJsonConfig" ref="fastJsonConfig" />
+			</bean>
+		</mvc:message-converters>
+	</mvc:annotation-driven>
+
+	<!-- 文件上传 -->
+	<!-- 配置MultipartResolver 用于文件上传 使用spring的CommosMultipartResolver -->
+	<bean id="multipartResolver"
+		class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<property name="defaultEncoding" value="utf-8" />
+		<property name="maxUploadSize" value="${file.maxUploadSize}" />
+	</bean>
+	<bean id="fastJsonConfig" class="com.alibaba.fastjson.support.config.FastJsonConfig">
+		<property name="dateFormat" value="yyyy-MM-dd HH:mm:ss" />
+	</bean>
+
+	<bean id="validator"
+		class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean">
+		<property name="providerClass" value="org.hibernate.validator.HibernateValidator" />
+	</bean>
+	<bean id="conversion-service"
+		class="org.springframework.format.support.FormattingConversionServiceFactoryBean" />
+
+	<!-- 配置文件，DEBUG模式自动启用本地文件，否则使用配置中心 -->
+	<bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">
+			<list>
+				<value>classpath:config/db.properties</value>
+				<value>classpath:config/lark.properties</value>
+			</list>
+		</property>
+	</bean>
+
+	<!-- 自定义异常处理 -->
+	<!-- 优先要比DefaultHandlerExceptionResolver高，否则部分异常得不到处理机会 -->
+	<!-- DefaultHandlerExceptionResolver order为2，所以此处order设置value为1 -->
+	<bean class="cn.zhaocaiapp.zc.core.web.handler.AppHandlerExceptionResolver">
+		<property name="order" value="1" />
+	</bean>
+
+</beans>
