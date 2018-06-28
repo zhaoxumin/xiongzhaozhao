@@ -149,7 +149,7 @@
             <version>1.10</version>
         </dependency>
 
-        <!-- orika-core -->
+        <!-- orika-filter -->
         <dependency>
             <groupId>ma.glasnost.orika</groupId>
             <artifactId>orika-core</artifactId>
@@ -303,7 +303,7 @@
             <version>1.2.3</version>
         </dependency>
 
-        <!-- jai-core -->
+        <!-- jai-filter -->
         <dependency>
             <groupId>javax.media</groupId>
             <artifactId>jai-core</artifactId>
@@ -357,6 +357,21 @@
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>1.2.4</version>
+        </dependency>
+
+        <!--guava-->
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>18.0</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.apache.shiro/shiro-all -->
+        <!--shiro-->
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-all</artifactId>
+            <version>1.1.0</version>
         </dependency>
 
     </dependencies>

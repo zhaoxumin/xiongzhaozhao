@@ -1,12 +1,12 @@
-package com.xiongzhaozhao.web.common.controller;
+package com.xiongzhaozhao.user.web.common.controller;
 
 import com.alibaba.dubbo.common.json.JSONObject;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.serializer.SerializerFeature;
-import com.xiongzhaozhao.web.common.Constants;
-import com.xiongzhaozhao.web.common.bean.ResponseBean;
-import com.xiongzhaozhao.web.common.utils.MD5Util;
-import com.xiongzhaozhao.web.common.utils.StringUtil;
+import com.xiongzhaozhao.user.web.common.Constants;
+import com.xiongzhaozhao.user.web.common.utils.MD5Util;
+import com.xiongzhaozhao.user.web.common.utils.StringUtil;
+import com.xiongzhaozhao.user.web.common.bean.ResponseBean;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.springframework.util.StringUtils;

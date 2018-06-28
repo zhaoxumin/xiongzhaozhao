@@ -123,7 +123,7 @@
             <version>1.10</version>
         </dependency>
 
-        <!-- orika-core -->
+        <!-- orika-filter -->
         <dependency>
             <groupId>ma.glasnost.orika</groupId>
             <artifactId>orika-core</artifactId>
@@ -277,7 +277,7 @@
             <version>1.2.3</version>
         </dependency>
 
-        <!-- jai-core -->
+        <!-- jai-filter -->
         <dependency>
             <groupId>javax.media</groupId>
             <artifactId>jai-core</artifactId>

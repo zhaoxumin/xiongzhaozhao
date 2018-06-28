@@ -1062,7 +1062,7 @@ if ( !$.offset.setOffset ) {
  * http://docs.jquery.com/UI/Draggables
  *
  * Depends:
- *	jquery.ui.core.js
+ *	jquery.ui.filter.js
  *	jquery.ui.mouse.js
  *	jquery.ui.widget.js
  */
@@ -1166,7 +1166,7 @@ $.widget("ui.draggable", $.ui.mouse, {
 
 		/*
 		 * - Position generation -
-		 * This block generates everything position related - it's the core of draggables.
+		 * This block generates everything position related - it's the filter of draggables.
 		 */
 
 		//Cache the margins of the original element
@@ -1887,7 +1887,7 @@ $.ui.plugin.add("draggable", "zIndex", {
  * http://docs.jquery.com/UI/Droppables
  *
  * Depends:
- *	jquery.ui.core.js
+ *	jquery.ui.filter.js
  *	jquery.ui.widget.js
  *	jquery.ui.mouse.js
  *	jquery.ui.draggable.js
@@ -2183,7 +2183,7 @@ $.ui.ddmanager = {
  * http://docs.jquery.com/UI/Resizables
  *
  * Depends:
- *	jquery.ui.core.js
+ *	jquery.ui.filter.js
  *	jquery.ui.mouse.js
  *	jquery.ui.widget.js
  */
@@ -2991,7 +2991,7 @@ var isNumber = function(value) {
  * http://docs.jquery.com/UI/Selectables
  *
  * Depends:
- *	jquery.ui.core.js
+ *	jquery.ui.filter.js
  *	jquery.ui.mouse.js
  *	jquery.ui.widget.js
  */
@@ -3258,7 +3258,7 @@ $.extend($.ui.selectable, {
  * http://docs.jquery.com/UI/Sortables
  *
  * Depends:
- *	jquery.ui.core.js
+ *	jquery.ui.filter.js
  *	jquery.ui.mouse.js
  *	jquery.ui.widget.js
  */
@@ -3389,7 +3389,7 @@ $.widget("ui.sortable", $.ui.mouse, {
 
 		/*
 		 * - Position generation -
-		 * This block generates everything position related - it's the core of draggables.
+		 * This block generates everything position related - it's the filter of draggables.
 		 */
 
 		//Cache the margins of the original element
@@ -3683,7 +3683,7 @@ $.widget("ui.sortable", $.ui.mouse, {
 
 	},
 
-	/* Be careful with the following core functions */
+	/* Be careful with the following filter functions */
 	_intersectsWith: function(item) {
 
 		var x1 = this.positionAbs.left,
@@ -4339,7 +4339,7 @@ $.extend($.ui.sortable, {
  * http://docs.jquery.com/UI/Accordion
  *
  * Depends:
- *	jquery.ui.core.js
+ *	jquery.ui.filter.js
  *	jquery.ui.widget.js
  */
 (function( $, undefined ) {
@@ -4950,7 +4950,7 @@ $.extend( $.ui.accordion, {
  * http://docs.jquery.com/UI/Autocomplete
  *
  * Depends:
- *	jquery.ui.core.js
+ *	jquery.ui.filter.js
  *	jquery.ui.widget.js
  *	jquery.ui.position.js
  */
@@ -5402,7 +5402,7 @@ $.extend( $.ui.autocomplete, {
  * http://docs.jquery.com/UI/Menu
  *
  * Depends:
- *	jquery.ui.core.js
+ *	jquery.ui.filter.js
  *  jquery.ui.widget.js
  */
 (function($) {
@@ -5581,7 +5581,7 @@ $.widget("ui.menu", {
  * http://docs.jquery.com/UI/Button
  *
  * Depends:
- *	jquery.ui.core.js
+ *	jquery.ui.filter.js
  *	jquery.ui.widget.js
  */
 (function( $, undefined ) {
@@ -5995,7 +5995,7 @@ $.widget( "ui.buttonset", {
  * http://docs.jquery.com/UI/Dialog
  *
  * Depends:
- *	jquery.ui.core.js
+ *	jquery.ui.filter.js
  *	jquery.ui.widget.js
  *  jquery.ui.button.js
  *	jquery.ui.draggable.js
@@ -6873,7 +6873,7 @@ $.extend($.ui.dialog.overlay.prototype, {
  * http://docs.jquery.com/UI/Slider
  *
  * Depends:
- *	jquery.ui.core.js
+ *	jquery.ui.filter.js
  *	jquery.ui.mouse.js
  *	jquery.ui.widget.js
  */
@@ -7535,7 +7535,7 @@ $.extend( $.ui.slider, {
  * http://docs.jquery.com/UI/Tabs
  *
  * Depends:
- *	jquery.ui.core.js
+ *	jquery.ui.filter.js
  *	jquery.ui.widget.js
  */
 (function( $, undefined ) {
@@ -8292,7 +8292,7 @@ $.extend( $.ui.tabs.prototype, {
  * http://docs.jquery.com/UI/Datepicker
  *
  * Depends:
- *	jquery.ui.core.js
+ *	jquery.ui.filter.js
  */
 (function( $, undefined ) {
 
@@ -10116,7 +10116,7 @@ window['DP_jQuery_' + dpuuid] = $;
  * http://docs.jquery.com/UI/Progressbar
  *
  * Depends:
- *   jquery.ui.core.js
+ *   jquery.ui.filter.js
  *   jquery.ui.widget.js
  */
 (function( $, undefined ) {
@@ -10742,7 +10742,7 @@ $.fn.extend({
 		}
 	},
 
-	// jQuery core overloads toggle and creates _toggle
+	// jQuery filter overloads toggle and creates _toggle
 	__toggle: $.fn.toggle,
 	toggle: function(speed) {
 		if ( standardSpeed( speed ) || typeof speed === "boolean" || $.isFunction( speed ) ) {
@@ -10988,7 +10988,7 @@ $.extend($.easing,
  * http://docs.jquery.com/UI/Effects/Blind
  *
  * Depends:
- *	jquery.effects.core.js
+ *	jquery.effects.filter.js
  */
 (function( $, undefined ) {
 
@@ -11037,7 +11037,7 @@ $.effects.blind = function(o) {
  * http://docs.jquery.com/UI/Effects/Bounce
  *
  * Depends:
- *	jquery.effects.core.js
+ *	jquery.effects.filter.js
  */
 (function( $, undefined ) {
 
@@ -11115,7 +11115,7 @@ $.effects.bounce = function(o) {
  * http://docs.jquery.com/UI/Effects/Clip
  *
  * Depends:
- *	jquery.effects.core.js
+ *	jquery.effects.filter.js
  */
 (function( $, undefined ) {
 
@@ -11169,7 +11169,7 @@ $.effects.clip = function(o) {
  * http://docs.jquery.com/UI/Effects/Drop
  *
  * Depends:
- *	jquery.effects.core.js
+ *	jquery.effects.filter.js
  */
 (function( $, undefined ) {
 
@@ -11219,7 +11219,7 @@ $.effects.drop = function(o) {
  * http://docs.jquery.com/UI/Effects/Explode
  *
  * Depends:
- *	jquery.effects.core.js
+ *	jquery.effects.filter.js
  */
 (function( $, undefined ) {
 
@@ -11298,7 +11298,7 @@ $.effects.explode = function(o) {
  * http://docs.jquery.com/UI/Effects/Fade
  *
  * Depends:
- *	jquery.effects.core.js
+ *	jquery.effects.filter.js
  */
 (function( $, undefined ) {
 
@@ -11330,7 +11330,7 @@ $.effects.fade = function(o) {
  * http://docs.jquery.com/UI/Effects/Fold
  *
  * Depends:
- *	jquery.effects.core.js
+ *	jquery.effects.filter.js
  */
 (function( $, undefined ) {
 
@@ -11386,7 +11386,7 @@ $.effects.fold = function(o) {
  * http://docs.jquery.com/UI/Effects/Highlight
  *
  * Depends:
- *	jquery.effects.core.js
+ *	jquery.effects.filter.js
  */
 (function( $, undefined ) {
 
@@ -11436,7 +11436,7 @@ $.effects.highlight = function(o) {
  * http://docs.jquery.com/UI/Effects/Pulsate
  *
  * Depends:
- *	jquery.effects.core.js
+ *	jquery.effects.filter.js
  */
 (function( $, undefined ) {
 
@@ -11487,7 +11487,7 @@ $.effects.pulsate = function(o) {
  * http://docs.jquery.com/UI/Effects/Scale
  *
  * Depends:
- *	jquery.effects.core.js
+ *	jquery.effects.filter.js
  */
 (function( $, undefined ) {
 
@@ -11665,7 +11665,7 @@ $.effects.size = function(o) {
  * http://docs.jquery.com/UI/Effects/Shake
  *
  * Depends:
- *	jquery.effects.core.js
+ *	jquery.effects.filter.js
  */
 (function( $, undefined ) {
 
@@ -11722,7 +11722,7 @@ $.effects.shake = function(o) {
  * http://docs.jquery.com/UI/Effects/Slide
  *
  * Depends:
- *	jquery.effects.core.js
+ *	jquery.effects.filter.js
  */
 (function( $, undefined ) {
 
@@ -11772,7 +11772,7 @@ $.effects.slide = function(o) {
  * http://docs.jquery.com/UI/Effects/Transfer
  *
  * Depends:
- *	jquery.effects.core.js
+ *	jquery.effects.filter.js
  */
 (function( $, undefined ) {
 

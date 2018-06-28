@@ -30,6 +30,12 @@
             <groupId>com.xunzhaozhao</groupId>
             <artifactId>xzz_user_api</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.xunzhaozhao</groupId>
+            <artifactId>xzz_user_api</artifactId>
+            <version>${xiongzhaozho.version}</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 
 

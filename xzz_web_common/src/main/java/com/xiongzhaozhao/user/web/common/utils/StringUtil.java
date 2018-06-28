@@ -1,4 +1,4 @@
-package com.xiongzhaozhao.web.common.utils;
+package com.xiongzhaozhao.user.web.common.utils;
 
 import com.alibaba.fastjson.JSONArray;
 import org.apache.commons.lang3.RandomStringUtils;

@@ -28,12 +28,17 @@
             <groupId>com.xunzhaozhao</groupId>
             <artifactId>xzz-config</artifactId>
         </dependency>
-
-        <!-- servlet -->
         <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>javax.servlet-api</artifactId>
-            <scope>provided</scope>
+            <groupId>com.xunzhaozhao</groupId>
+            <artifactId>xzz_web_common</artifactId>
+            <version>${xiongzhaozho.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.xunzhaozhao</groupId>
+            <artifactId>xzz_user_api</artifactId>
+            <version>${xiongzhaozho.version}</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xmlns:util="http://www.springframework.org/schema/util"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans
+						http://www.springframework.org/schema/beans/spring-beans.xsd
+						http://www.springframework.org/schema/util
+     					http://www.springframework.org/schema/util/spring-util-3.0.xsd">
+
+	<!--<bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">-->
+		<!--<property name="sessionManager" ref="sessionManager"/>-->
+		<!--<property name="realm" ref="authRealm"/>-->
+	<!--</bean>-->
+
+	<!--&lt;!&ndash; session管理器 &ndash;&gt;-->
+	<!--<bean id="sessionManager" class="cn.com.htwins.lark.shiro.session.MyDefaultWebSessionManager">-->
+		<!--<property name="sessionDAO" ref="redisShiroSessionDAO" />-->
+		<!--<property name="cacheManager" ref="redisCacheManager" />-->
+		<!--<property name="globalSessionTimeout" value="${shiro.globalSessionTimeout}" />-->
+		<!--<property name="sessionValidationInterval" value="${shiro.sessionValidationInterval}" />-->
+		<!--<property name="sessionIdCookieEnabled" value="${shiro.sessionIdCookieEnabled}"/>-->
+	<!--</bean>-->
+
+	<!--&lt;!&ndash; 項目自定义的Realm &ndash;&gt;-->
+	<!--<bean id="authRealm" class="cn.zhaocaiapp.zc.web.common.core.realm.AuthDBRealm"/>-->
+
+	<!--&lt;!&ndash; 权限过滤器，区分ajax和页面请求 &ndash;&gt;-->
+	<!--<bean id="appAuthenticationFilter" class="cn.zhaocaiapp.zc.web.common.core.shiro.AppAuthenticationFilter" />-->
+
+	<!-- Shiro Filter -->
+	<!--<bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">-->
+		<!--<property name="securityManager" ref="securityManager"/>-->
+		<!--<property name="loginUrl" value="/login"/>-->
+		<!--&lt;!&ndash; 在mvc中控制成功页面 &ndash;&gt;-->
+		<!--<property name="successUrl" value="/"/>-->
+		<!--<property name="unauthorizedUrl" value="/login"/>-->
+        <!--<property name="filters">-->
+            <!--<util:map>-->
+                <!--<entry key="authc" value-ref="appAuthenticationFilter"></entry>-->
+            <!--</util:map>-->
+        <!--</property>-->
+		<!--<property name="filterChainDefinitions">-->
+			<!--<value>-->
+				<!--/** 						= anon-->
+			<!--</value>-->
+		<!--</property>-->
+	<!--</bean>-->
+
+</beans>

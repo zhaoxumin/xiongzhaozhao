@@ -2,27 +2,37 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="xzz_web:war exploded" />
+      <artifact name="xzz_app_portal:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="19db21a8-579a-4f29-957f-6b56f0dae053" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/xzz_app_portal/src/main/java/LoginAppController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/web/common/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/web/common/bean/ResponseBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/web/common/controller/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/web/common/utils/MD5Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/web/common/utils/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_app_portal/src/main/resources/spring/root-context-shiro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_app_portal/src/main/resources/spring/root-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_app_portal/src/main/resources/spring/servlet-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_app_portal/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_user/src/main/java/com/xiongzhaozhao/user/service/LoginServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_user_api/src/main/java/com/xiongzhaozhao/user/api/service/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/user/web/common/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/user/web/common/filter/RequestBodyFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/user/web/common/filter/RequestBodyWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/user/web/common/utils/MD5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/user/web/common/utils/XssUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/xzz_app_portal_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/xzz_app_portal_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/xzz_web_manager_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/xzz_web_manager_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/xzz_web_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/xzz_web_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xzz_app_portal/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xzz_app_portal/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xzz_app_portal/src/main/java/LoginAppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xzz_app_portal/src/main/java/LoginAppController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xzz_core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xzz_core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xzz_core/src/main/java/com/xiongzhaozhao/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/xzz_core/src/main/java/com/xiongzhaozhao/user/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xzz_core/src/main/java/com/xiongzhaozhao/utils/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/xzz_core/src/main/java/com/xiongzhaozhao/user/utils/StringUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xzz_user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xzz_user/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xzz_web/src/main/webapp/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/css/common.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xzz_web/src/main/webapp/css/import.css" beforeDir="false" afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/css/import.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xzz_web/src/main/webapp/css/jquery-ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/css/jquery-ui.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xzz_web/src/main/webapp/css/my.css" beforeDir="false" afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/css/my.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xzz_web/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/My97DatePicker/WdatePicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/My97DatePicker/WdatePicker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/My97DatePicker/calendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/My97DatePicker/calendar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/My97DatePicker/lang/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/My97DatePicker/lang/en.js" afterDir="false" />
@@ -36,7 +46,11 @@
       <change beforePath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/jquery-1.8.0.js" beforeDir="false" afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/jquery-1.8.0.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/match/match_add.js" beforeDir="false" afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/match/match_add.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/tool/calendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/tool/calendar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/tool/jquery-ui-1.8.19.custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/tool/jquery-ui-1.8.19.custom.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/tool/jquery-ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/xzz_web/src/main/webapp/js/tool/jquery-ui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/web/common/bean/ResponseBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/user/web/common/bean/ResponseBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/web/common/controller/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/user/web/common/controller/BaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/web/common/utils/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/user/web/common/utils/StringUtil.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,6 +79,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
     <option name="GROUP_DATA_SOURCES" value="true" />
@@ -84,29 +101,88 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="vcs.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xzz_app_portal/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+            <state relative-caret-position="304">
+              <caret line="39" column="54" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/web/common/controller/BaseController.java">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xzz_app_portal/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2477">
-              <caret line="138" column="5" selection-start-line="138" selection-start-column="5" selection-end-line="138" selection-end-column="5" />
+            <state relative-caret-position="107">
+              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="root-context.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xzz_app_portal/src/main/resources/spring/root-context.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="48" column="15" selection-start-line="24" selection-start-column="8" selection-end-line="48" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="root-context-shiro.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xzz_app_portal/src/main/resources/spring/root-context-shiro.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="28" selection-start-line="23" selection-start-column="8" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="servlet-mvc.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xzz_app_portal/src/main/resources/spring/servlet-mvc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="56" selection-start-line="56" selection-end-line="114" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RequestBodyFilter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/user/web/common/filter/RequestBodyFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#907#908#0" expanded="true" />
-                <element signature="e#973#974#0" expanded="true" />
-                <element signature="e#3267#3297#0" expanded="true" />
-                <element signature="e#7317#7318#0" expanded="true" />
-                <element signature="e#7376#7377#0" expanded="true" />
-                <element signature="e#7512#7513#0" expanded="true" />
-                <element signature="e#7571#7572#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RequestBodyWrapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/user/web/common/filter/RequestBodyWrapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="990">
+              <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#6323#6324#0" expanded="true" />
+                <element signature="e#6375#6376#0" expanded="true" />
+                <element signature="e#6445#6446#0" expanded="true" />
+                <element signature="e#6497#6498#0" expanded="true" />
+                <element signature="e#11457#11458#0" expanded="true" />
+                <element signature="e#11514#11515#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XssUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/user/web/common/utils/XssUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="798">
+              <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,14 +190,9 @@
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xzz_web_common/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xzz_web_manager/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="32" selection-start-line="10" selection-start-column="4" selection-end-line="14" selection-end-column="32" />
+            <state relative-caret-position="264">
+              <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -129,53 +200,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="354" column="31" lean-forward="true" selection-start-line="354" selection-start-column="31" selection-end-line="354" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MD5Util.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/web/common/utils/MD5Util.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-              <folding>
-                <element signature="e#1029#1030#0" expanded="true" />
-                <element signature="e#1088#1089#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringUtil.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/web/common/utils/StringUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1925#1926#0" expanded="true" />
-                <element signature="e#1984#1985#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/web/common/Constants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3458">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResponseBean.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/web/common/bean/ResponseBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+            <state relative-caret-position="414">
+              <caret line="369" column="17" selection-start-line="369" selection-start-column="17" selection-end-line="369" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -187,12 +213,16 @@
       <list>
         <option value="package-info" />
         <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -202,13 +232,9 @@
         <option value="$PROJECT_DIR$/xzz_service_common/pom.xml" />
         <option value="$PROJECT_DIR$/xzz_shop_api/pom.xml" />
         <option value="$PROJECT_DIR$/xzz_task_api/pom.xml" />
-        <option value="$PROJECT_DIR$/xzz_user_api/pom.xml" />
-        <option value="$PROJECT_DIR$/xzz_web_common/pom.xml" />
         <option value="$PROJECT_DIR$/xzz_pay/pom.xml" />
         <option value="$PROJECT_DIR$/xzz_shop/pom.xml" />
         <option value="$PROJECT_DIR$/xzz_task/pom.xml" />
-        <option value="$PROJECT_DIR$/xzz_user/pom.xml" />
-        <option value="$PROJECT_DIR$/xzz_app_portal/pom.xml" />
         <option value="$PROJECT_DIR$/xzz_web_manager/pom.xml" />
         <option value="$PROJECT_DIR$/xzz_pay_api/pom.xml" />
         <option value="$PROJECT_DIR$/xzz_web/src/main/resources/dubbo/applicationContext.xml" />
@@ -226,10 +252,24 @@
         <option value="$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/web/common/utils/MD5.java" />
         <option value="$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/web/common/utils/MD5Util.java" />
         <option value="$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/web/common/bean/ResponseBean.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/web/common/controller/BaseController.java" />
         <option value="$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/web/common/Constants.java" />
         <option value="$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/web/common/utils/StringUtil.java" />
+        <option value="$PROJECT_DIR$/xzz_user/src/main/java/com/xiongzhaozhao/service/LoginServiceImpl.java" />
+        <option value="$PROJECT_DIR$/xzz_user_api/pom.xml" />
+        <option value="$PROJECT_DIR$/xzz_user/pom.xml" />
+        <option value="$PROJECT_DIR$/xzz_user/src/main/java/com/xiongzhaozhao/user/service/LoginServiceImpl.java" />
+        <option value="$PROJECT_DIR$/xzz_app_portal/pom.xml" />
+        <option value="$PROJECT_DIR$/xzz_app_portal/src/main/java/LoginAppController.java" />
+        <option value="$PROJECT_DIR$/xzz_app_portal/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/xzz_app_portal/src/main/resources/spring/root-context-shiro.xml" />
+        <option value="$PROJECT_DIR$/xzz_app_portal/src/main/resources/spring/servlet-mvc.xml" />
+        <option value="$PROJECT_DIR$/xzz_app_portal/src/main/resources/spring/root-context.xml" />
+        <option value="$PROJECT_DIR$/xzz_web_common/pom.xml" />
+        <option value="$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/user/web/common/utils/XssUtils.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/user/web/common/filter/RequestBodyWrapper.java" />
+        <option value="$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/user/web/common/filter/RequestBodyFilter.java" />
       </list>
     </option>
   </component>
@@ -276,67 +316,45 @@
             <path>
               <item name="xiongzhaozhao" type="b2602c69:ProjectViewProjectNode" />
               <item name="xiongzhaozhao" type="462c0819:PsiDirectoryNode" />
-              <item name="xzz_web_common" type="462c0819:PsiDirectoryNode" />
+              <item name="xzz_app_portal" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xiongzhaozhao" type="b2602c69:ProjectViewProjectNode" />
               <item name="xiongzhaozhao" type="462c0819:PsiDirectoryNode" />
-              <item name="xzz_web_common" type="462c0819:PsiDirectoryNode" />
+              <item name="xzz_app_portal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xiongzhaozhao" type="b2602c69:ProjectViewProjectNode" />
               <item name="xiongzhaozhao" type="462c0819:PsiDirectoryNode" />
-              <item name="xzz_web_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiongzhaozhao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiongzhaozhao" type="462c0819:PsiDirectoryNode" />
-              <item name="xzz_web_common" type="462c0819:PsiDirectoryNode" />
+              <item name="xzz_app_portal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xiongzhaozhao" type="b2602c69:ProjectViewProjectNode" />
               <item name="xiongzhaozhao" type="462c0819:PsiDirectoryNode" />
-              <item name="xzz_web_common" type="462c0819:PsiDirectoryNode" />
+              <item name="xzz_app_portal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xiongzhaozhao" type="b2602c69:ProjectViewProjectNode" />
               <item name="xiongzhaozhao" type="462c0819:PsiDirectoryNode" />
-              <item name="xzz_web_common" type="462c0819:PsiDirectoryNode" />
+              <item name="xzz_app_portal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xiongzhaozhao" type="b2602c69:ProjectViewProjectNode" />
               <item name="xiongzhaozhao" type="462c0819:PsiDirectoryNode" />
-              <item name="xzz_web_common" type="462c0819:PsiDirectoryNode" />
+              <item name="xzz_app_portal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xiongzhaozhao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xiongzhaozhao" type="462c0819:PsiDirectoryNode" />
-              <item name="xzz_web_common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -354,22 +372,24 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.48832488" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/xzz_web_manager/src/main/webapp" />
-      <recent name="$PROJECT_DIR$/xzz_web/src/main/webapp/css" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/xzz_app_portal/src/main/resources/spring" />
       <recent name="$PROJECT_DIR$/xzz_web/src/main/webapp/images" />
       <recent name="$PROJECT_DIR$/xzz_web_manager/src/main/resources" />
       <recent name="$PROJECT_DIR$/xzz_web/src/main/webapp" />
       <recent name="$PROJECT_DIR$/xzz_web/src/main/webapp/js" />
-      <recent name="$PROJECT_DIR$/xzz_web/src/main/resources/dubbo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/xzz_app_portal/src/main" />
+      <recent name="$PROJECT_DIR$/xzz_app_portal/webapp" />
+      <recent name="$PROJECT_DIR$/xzz_web_manager/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/xzz_web/src/main/webapp/css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -384,7 +404,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.portal">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -516,6 +536,78 @@
         <option name="LOCAL" value="false" />
       </RunnerSettings>
     </configuration>
+    <configuration name="portal" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.78" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="xzz_app_portal:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_xiongzhaozhao" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58388" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="xzz_app_portal:war exploded" />
+        </option>
+      </method>
+    </configuration>
     <configuration name="web" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.78" ALTERNATIVE_JRE_ENABLED="false">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -604,6 +696,10 @@
       <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.web" />
+      <item itemvalue="Tomcat Server.portal" />
+    </list>
   </component>
   <component name="SvnConfiguration" cleanupOnStartRun="true">
     <configuration>$USER_HOME$/.subversion</configuration>
@@ -632,7 +728,7 @@
       <workItem from="1528870816966" duration="10548000" />
       <workItem from="1528961694973" duration="1132000" />
       <workItem from="1530003594605" duration="43000" />
-      <workItem from="1530078229625" duration="6998000" />
+      <workItem from="1530078229625" duration="16299000" />
     </task>
     <task id="LOCAL-00001" summary="简单maven依赖关系配置，并分层了一下，方便后面分布式">
       <created>1526265414455</created>
@@ -697,11 +793,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528956752990</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Basecontroller和一些工具类">
+      <created>1530156357155</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1530156357155</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57749000" />
+    <option name="totallyTimeSpent" value="67050000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -718,10 +821,10 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32954547" />
-      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32952693" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.1335505" side_tool="true" weight="0.39151713" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5008143" side_tool="true" weight="0.39151713" />
       <window_info anchor="bottom" id="Application Servers" order="8" sideWeight="0.49918568" weight="0.32954547" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.37947884" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
@@ -734,11 +837,11 @@
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" weight="0.32980457" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32952693" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49918568" weight="0.32952693" />
       <window_info id="Structure" order="1" sideWeight="0.39791667" side_tool="true" weight="0.30374593" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="2" sideWeight="0.23414634" side_tool="true" weight="0.33387622" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.86644953" weight="0.21696573" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.86644953" visible="true" weight="0.6867863" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -759,86 +862,30 @@
     <MESSAGE value="先开发web版" />
     <MESSAGE value="web首页更新，搜索考虑使用站内搜索引擎" />
     <MESSAGE value="新增了context模块，此模块赞定位为发布寻人寻物所有的接口，重新设计logo以及icon" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增了context模块，此模块赞定位为发布寻人寻物所有的接口，重新设计logo以及icon" />
+    <MESSAGE value="Basecontroller和一些工具类" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basecontroller和一些工具类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/web/common/controller/BaseController.java</url>
+          <url>file://$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/user/web/common/controller/BaseController.java</url>
           <line>59</line>
-          <properties class="com.xiongzhaozhao.web.common.controller.BaseController" method="error">
+          <properties class="com.xiongzhaozhao.user.web.common.controller.BaseController" method="error">
             <option name="EMULATED" value="true" />
           </properties>
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/xzz_app_portal/src/main/java/LoginAppController.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/xzz_config/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzz_task/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzz_shop/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="31" column="19" selection-start-line="16" selection-start-column="4" selection-end-line="31" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzz_pay/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="30" column="21" selection-start-line="16" selection-start-column="4" selection-end-line="30" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzz_web_common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzz_user/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzz_user_api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xzz_task/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -916,21 +963,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xzz_user_api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="29" selection-start-line="10" selection-start-column="4" selection-end-line="14" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xzz_task/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzz_user/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
           <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
@@ -958,7 +991,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xzz_core/src/main/java/com/xiongzhaozhao/utils/StringUtils.java">
+    <entry file="file://$PROJECT_DIR$/xzz_core/src/main/java/com/xiongzhaozhao/user/utils/StringUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
@@ -998,13 +1031,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xzz_config/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xzz_shop/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="682">
@@ -1030,13 +1056,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xzz_app_portal/src/main/java/LoginAppController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/xzz_web_common/bean/ResponseBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -1055,21 +1074,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xzz_app_portal/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/web/common/utils/MD5Util.java">
+    <entry file="file://$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/user/web/common/utils/MD5Util.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/web/common/utils/MD5Util.java">
+    <entry file="file://$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/user/web/common/utils/MD5Util.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
           <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
@@ -1087,16 +1099,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xzz_web_common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="354" column="31" lean-forward="true" selection-start-line="354" selection-start-column="31" selection-end-line="354" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -1104,7 +1106,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/web/common/controller/BaseController.java">
+    <entry file="file://$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/user/web/common/controller/BaseController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2477">
           <caret line="138" column="5" selection-start-line="138" selection-start-column="5" selection-end-line="138" selection-end-column="5" />
@@ -1121,14 +1123,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/web/common/Constants.java">
+    <entry file="file://$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/user/web/common/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3458">
           <caret line="55" selection-start-line="55" selection-end-line="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/web/common/bean/ResponseBean.java">
+    <entry file="file://$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/user/web/common/bean/ResponseBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
           <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
@@ -1146,7 +1148,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/web/common/utils/StringUtil.java">
+    <entry file="file://$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/user/web/common/utils/StringUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
           <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
@@ -1154,6 +1156,136 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1925#1926#0" expanded="true" />
             <element signature="e#1984#1985#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzz_config/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzz_user_api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzz_user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzz_user/src/main/java/com/xiongzhaozhao/user/service/LoginServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzz_user_api/src/main/java/com/xiongzhaozhao/user/api/service/LoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzz_app_portal/src/main/java/LoginAppController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-67">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzz_app_portal/src/main/resources/spring/root-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="48" column="15" selection-start-line="24" selection-start-column="8" selection-end-line="48" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzz_app_portal/src/main/resources/spring/root-context-shiro.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="28" selection-start-line="23" selection-start-column="8" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzz_app_portal/src/main/resources/spring/servlet-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="56" selection-start-line="56" selection-end-line="114" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzz_web_common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/user/web/common/utils/XssUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="369" column="17" selection-start-line="369" selection-start-column="17" selection-end-line="369" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/user/web/common/filter/RequestBodyWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6323#6324#0" expanded="true" />
+            <element signature="e#6375#6376#0" expanded="true" />
+            <element signature="e#6445#6446#0" expanded="true" />
+            <element signature="e#6497#6498#0" expanded="true" />
+            <element signature="e#11457#11458#0" expanded="true" />
+            <element signature="e#11514#11515#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzz_app_portal/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="39" column="54" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzz_app_portal/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xzz_web_common/src/main/java/com/xiongzhaozhao/user/web/common/filter/RequestBodyFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1177,7 +1309,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web (xzz_web_manager)|Web</last-edited>
+          <last-edited>Web (xzz_app_portal)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1213,7 +1345,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>xzz_web_manager</last-edited>
+          <last-edited>xzz_app_portal</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

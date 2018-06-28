@@ -1,4 +1,4 @@
-package com.xiongzhaozhao.web.common.bean;
+package com.xiongzhaozhao.user.web.common.bean;
 
 /**
  * @author zxm
