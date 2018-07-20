@@ -23,10 +23,14 @@
         <dependency>
             <groupId>com.xunzhaozhao</groupId>
             <artifactId>xzz-web-common</artifactId>
+            <version>${xiongzhaozho.version}</version>
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>com.xunzhaozhao</groupId>
             <artifactId>xzz-config</artifactId>
+            <version>${xiongzhaozho.version}</version>
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>com.xunzhaozhao</groupId>
@@ -37,6 +41,12 @@
         <dependency>
             <groupId>com.xunzhaozhao</groupId>
             <artifactId>xzz_user_api</artifactId>
+            <version>${xiongzhaozho.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.xunzhaozhao</groupId>
+            <artifactId>xzz_core</artifactId>
             <version>${xiongzhaozho.version}</version>
             <scope>compile</scope>
         </dependency>

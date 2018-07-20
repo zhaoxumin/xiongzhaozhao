@@ -1,4 +1,4 @@
-package com.xiongzhaozhao.user.utils;
+package com.xiongzhaozhao.core.utils;
 
 /**
  * @author zxm

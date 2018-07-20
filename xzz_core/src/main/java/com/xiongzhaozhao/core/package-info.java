@@ -4,4 +4,4 @@
  * @name package-info
  * @description description
  */
-package com.xiongzhaozhao.user;
+package com.xiongzhaozhao.core;

@@ -27,7 +27,7 @@
     <!-- request body包装类 -->
     <filter>
         <filter-name>requestBodyFilter</filter-name>
-        <filter-class>com.xiongzhaozhao.user.web.common.filter.RequestBodyFilter</filter-class>
+        <filter-class>com.xiongzhaozhao.core.web.common.filter.RequestBodyFilter</filter-class>
         <init-param>
             <!-- 白名单 -->
             <param-name>whiteList</param-name>

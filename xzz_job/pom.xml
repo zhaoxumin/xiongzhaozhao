@@ -11,7 +11,7 @@
     <groupId>com.xunzhaozhao</groupId>
     <artifactId>xzz_job</artifactId>
     <version>${xiongzhaozho.version}</version>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
     <name>xzz_job</name>
 
 
