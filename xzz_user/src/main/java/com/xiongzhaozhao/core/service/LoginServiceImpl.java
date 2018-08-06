@@ -1,6 +1,6 @@
-package com.xiongzhaozhao.user.service;
+package com.xiongzhaozhao.core.service;
 
-import com.xiongzhaozhao.user.api.service.LoginService;
+import com.xiongzhaozhao.core.api.service.LoginService;
 
 /**
  * @author zxm

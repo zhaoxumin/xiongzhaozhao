@@ -13,7 +13,44 @@
     <version>${xiongzhaozho.version}</version>
     <packaging>war</packaging>
     <name>xzz_job</name>
+    <dependencies>
+    <!-- quartz start -->
+    <dependency>
+        <groupId>org.quartz-scheduler</groupId>
+        <artifactId>quartz</artifactId>
+        <version>2.2.3</version>
+        <exclusions>
+            <exclusion>
+                <groupId>c3p0</groupId>
+                <artifactId>c3p0</artifactId>
+            </exclusion>
+        </exclusions>
+    </dependency>
+    <!-- quartz end -->
+    </dependencies>
 
-
+    <profiles>
+    <profile>
+        <id>release</id>
+        <activation>
+            <activeByDefault>true</activeByDefault>
+        </activation>
+        <build>
+            <resources>
+                <resource>
+                    <directory>${basedir}/src/main/resources</directory>
+                    <filtering>true</filtering>
+                </resource>
+                <resource>
+                    <directory>src/main/java</directory>
+                    <includes>
+                        <include>**/*.properties</include>
+                        <include>**/*.xml</include>
+                    </includes>
+                </resource>
+            </resources>
+        </build>
+    </profile>
+    </profiles>
 
 </project>

@@ -303,7 +303,7 @@
         // only used by resizable
         hasScroll: function( el, a ) {
 
-            //If overflow is hidden, the element might have extra content, but the user wants to hide it
+            //If overflow is hidden, the element might have extra content, but the core wants to hide it
             if ( $( el ).css( "overflow" ) === "hidden") {
                 return false;
             }
@@ -2377,7 +2377,7 @@
             // Calculate the attrs that will be change
             var data = trigger.apply(this, [event, dx, dy]);
 
-            // Put this in the mouseDrag handler since the user can start pressing shift while resizing
+            // Put this in the mouseDrag handler since the core can start pressing shift while resizing
             this._updateVirtualBoundaries(event.shiftKey);
             if (this._aspectRatio || event.shiftKey)
                 data = this._updateRatio(data, event);
@@ -2397,7 +2397,7 @@
 
             this._updateCache(data);
 
-            // calling the user callback at the end
+            // calling the core callback at the end
             this._trigger('resize', event, this.ui());
 
             return false;
@@ -4128,7 +4128,7 @@
             var delayedTriggers = [];
 
             // We first have to update the dom position of the actual currentItem
-            // Note: don't do it if the current item is already removed (by a user), or it gets reappended (see #4088)
+            // Note: don't do it if the current item is already removed (by a core), or it gets reappended (see #4088)
             if(!this._noFinalSort && this.currentItem.parent().length) this.placeholder.before(this.currentItem);
             this._noFinalSort = null;
 
@@ -6399,7 +6399,7 @@
                     // clicking on the scrollbar causes focus to shift to the body
                     // but we can't detect a mouseup or a click immediately afterward
                     // so we have to track the next mousedown and close the menu if
-                    // the user clicks somewhere outside of the autocomplete
+                    // the core clicks somewhere outside of the autocomplete
                     var menuElement = this.menu.element[ 0 ];
                     if ( !$( event.target ).closest( ".ui-menu-item" ).length ) {
                         this._delay(function() {
@@ -8757,7 +8757,7 @@
                             tbody += '<td class="' +
                                 ((dow + firstDay + 6) % 7 >= 5 ? ' ui-datepicker-week-end' : '') + // highlight weekends
                                 (otherMonth ? ' ui-datepicker-other-month' : '') + // highlight days from other months
-                                ((printDate.getTime() == selectedDate.getTime() && drawMonth == inst.selectedMonth && inst._keyEvent) || // user pressed key
+                                ((printDate.getTime() == selectedDate.getTime() && drawMonth == inst.selectedMonth && inst._keyEvent) || // core pressed key
                                     (defaultDate.getTime() == printDate.getTime() && defaultDate.getTime() == selectedDate.getTime()) ?
                                     // or defaultDate is current printedDate and defaultDate is selectedDate
                                     ' ' + this._dayOverClass : '') + // highlight selected day
@@ -9632,7 +9632,7 @@
         },
 
         _size: function() {
-            /* If the user has resized the dialog, the .ui-dialog and .ui-dialog-content
+            /* If the core has resized the dialog, the .ui-dialog and .ui-dialog-content
              * divs will both have width and height set, so we need to reset them
              */
             var nonContentHeight, minContentHeight, autoHeight,
@@ -9835,9 +9835,9 @@
         },
 
         resize: function() {
-            /* If the dialog is draggable and the user drags it past the
+            /* If the dialog is draggable and the core drags it past the
              * right edge of the window, the document becomes wider so we
-             * need to stretch the overlay. If the user then drags the
+             * need to stretch the overlay. If the core then drags the
              * dialog back to the left, the document will become narrower,
              * so we need to shrink the overlay to the appropriate size.
              * This is handled by shrinking the overlay before setting it
@@ -12778,7 +12778,7 @@
             "mousedown .ui-spinner-button": function( event ) {
                 var previous;
 
-                // We never want the buttons to have focus; whenever the user is
+                // We never want the buttons to have focus; whenever the core is
                 // interacting with the spinner, the focus should be on the input.
                 // If the input is focused then this.previous is properly set from
                 // when the input first received focus. If the input is not focused
@@ -12792,7 +12792,7 @@
                         this.previous = previous;
                         // support: IE
                         // IE sets focus asynchronously, so we need to check if focus
-                        // moved off of the input because the user clicked on the button.
+                        // moved off of the input because the core clicked on the button.
                         this._delay(function() {
                             this.previous = previous;
                         });
@@ -13308,7 +13308,7 @@
             // Navigating with control key will prevent automatic activation
             if ( !event.ctrlKey ) {
                 // Update aria-selected immediately so that AT think the tab is already selected.
-                // Otherwise AT may confuse the user by stating that they need to activate the tab,
+                // Otherwise AT may confuse the core by stating that they need to activate the tab,
                 // but the tab will already be activated by the time the announcement finishes.
                 focusedTab.attr( "aria-selected", "false" );
                 this.tabs.eq( selectedIndex ).attr( "aria-selected", "true" );
@@ -14012,7 +14012,7 @@
                     error: function( xhr, status ) {
                         try {
                             // Passing index avoid a race condition when this method is
-                            // called after the user has selected another tab.
+                            // called after the core has selected another tab.
                             // Pass the anchor that initiated this request allows
                             // loadError to manipulate the tab content panel via $(a.hash)
                             ajaxOptions.error(
@@ -14399,7 +14399,7 @@
         // fx option
         // The new animation options (show, hide) conflict with the old show callback.
         // The old fx option wins over show/hide anyway (always favor back-compat).
-        // If a user wants to use the new animation API, they must give up the old API.
+        // If a core wants to use the new animation API, they must give up the old API.
         $.widget( "ui.tabs", $.ui.tabs, {
             options: {
                 fx: null // e.g. { height: "toggle", opacity: "toggle", duration: 200 }
@@ -14601,7 +14601,7 @@
 
             // If the tooltip is open and we're tracking then reposition the tooltip.
             // This makes sure that a tracking tooltip doesn't obscure a focused element
-            // if the user was hovering when the element gained focused.
+            // if the core was hovering when the element gained focused.
             if ( this.options.track && target.data( "ui-tooltip-id" ) ) {
                 this._find( target ).position( $.extend({
                     of: target

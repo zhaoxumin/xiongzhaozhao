@@ -1,4 +1,4 @@
-package com.xiongzhaozhao.user.api.service;
+package com.xiongzhaozhao.core.api.service;
 
 /**
  * @author zxm
