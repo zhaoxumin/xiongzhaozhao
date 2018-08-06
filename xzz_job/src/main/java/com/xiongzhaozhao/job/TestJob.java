@@ -16,6 +16,6 @@ public class TestJob {
     //五分钟调用一次 测试solr 虚拟机
     @Scheduled(cron = "0/10 * * * * ?")
     public void runFunction(){
-        System.out.println("Method executed at every 5 seconds. Current time is :: " + (new java.text.SimpleDateFormat("yyyy-MM-dd HH:mm:ss")).format(new Date()));
+        System.out.println("Method executed at every 10 seconds. Current time is :: " + (new java.text.SimpleDateFormat("yyyy-MM-dd HH:mm:ss")).format(new Date()));
     }
 }
